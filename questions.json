@@ -1,0 +1,52 @@
+{
+  "fit_tecnico": {
+    "type": "score",
+    "instructions": "Quanto le competenze tecniche del curriculum_candidato coprono i requisiti tecnici della posizione_offerta",
+    "criteria": [
+      "Quasi nessun requisito tecnico coperto",
+      "Copertura parziale, mancano requisiti importanti",
+      "Buona copertura, lacune minori",
+      "Copertura completa o superiore ai requisiti"
+    ]
+  },
+  "esperienza": {
+    "type": "score",
+    "instructions": "Quanto l'esperienza del curriculum_candidato corrisponde agli anni e al tipo di ruolo richiesti dalla posizione_offerta",
+    "criteria": [
+      "Esperienza assente o non pertinente",
+      "Esperienza pertinente ma inferiore al richiesto",
+      "Esperienza in linea con il richiesto",
+      "Esperienza nettamente superiore al richiesto"
+    ]
+  },
+  "area_professionale": {
+    "type": "choice",
+    "instructions": "Area professionale principale del curriculum_candidato",
+    "criteria": {
+      "it_sistemi": "Sistemista, amministratore IT, supporto tecnico",
+      "it_altro": "Sviluppo software o altri ruoli informatici",
+      "amministrazione": "Segreteria, contabilità, ufficio",
+      "altro": "Altri settori"
+    }
+  },
+  "italiano_fluente": {
+    "type": "noul",
+    "instructions": "Il curriculum_candidato indica italiano fluente o madrelingua"
+  },
+  "inglese_tecnico": {
+    "type": "noul",
+    "instructions": "Il curriculum_candidato dimostra conoscenza dell'inglese in ambito tecnico o informatico"
+  },
+  "formazione_ok": {
+    "type": "noul",
+    "instructions": "Il curriculum_candidato possiede il titolo di Informatico AFC con maturità professionale o titolo equivalente"
+  },
+  "esperienza_minima_ok": {
+    "type": "noul",
+    "instructions": "Il curriculum_candidato ha almeno 3 anni di esperienza come sistemista IT o Apple system engineer"
+  },
+  "patente_b": {
+    "type": "noul",
+    "instructions": "Il curriculum_candidato indica il possesso della licenza di condurre categoria B"
+  }
+}
